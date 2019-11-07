@@ -1,0 +1,31 @@
+A01.WORLD=
+  (DESCRIPTION =
+    (SDU = 32768)
+    (ADDRESS_LIST =
+        (ADDRESS =
+          (COMMUNITY = SAP.WORLD)
+          (PROTOCOL = TCP)
+          (HOST = columbus)
+          (PORT = 1529)
+       )
+    (CONNECT_DATA =
+       (SID = A01)
+       (GLOBAL_NAME = A01.WORLD)
+    )
+  )
+)
+TEC.WORLD=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+        (ADDRESS =
+          (COMMUNITY = TEC.WORLD)
+          (PROTOCOL = TCP)
+          (HOST = columbus)
+          (PORT = 1521)
+        )
+    )
+    (CONNECT_DATA =
+       (SID = TEC)
+        (GLOBAL_NAME = TEC.WORLD)
+        )
+)
