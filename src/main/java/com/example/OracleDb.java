@@ -14,6 +14,8 @@ public class OracleDb {
 
     private String sid;
 
+    private String serviceName;
+
     @Override
     public String toString() {
         return ToStringBuilder.reflectionToString(this);
@@ -83,6 +85,20 @@ public class OracleDb {
      */
     public void setSid(String sid) {
         this.sid = sid;
+    }
+
+    /**
+     * @return the serviceName
+     */
+    public String getServiceName() {
+        return serviceName;
+    }
+
+    /**
+     * @param serviceName the serviceName to set
+     */
+    public void setServiceName(String serviceName) {
+        this.serviceName = serviceName;
     }
 
 }

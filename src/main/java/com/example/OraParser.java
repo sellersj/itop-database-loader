@@ -40,6 +40,7 @@ public class OraParser {
                 db.setHost(def.getVal().findOneString("HOST"));
                 db.setPort(def.getVal().findOneString("PORT"));
                 db.setSid(def.getVal().findOneString("SID"));
+                db.setServiceName(def.getVal().findOneString("SERVICE_NAME"));
 
                 result.add(db);
             }
